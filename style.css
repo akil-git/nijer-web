@@ -2,6 +2,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 
 }
 body{
@@ -39,4 +40,49 @@ nav a {
     font-size: 20px;
     font-weight: 700;
     padding: 10px 35px;
+}
+.janina{
+    background-color: blanchedalmond;
+}
+.banner{
+  
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.janina{
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png');
+     background-repeat: no-repeat;
+     background-position: bottom right;
+
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+/* main section styles in the css */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    color: #181818;
+    font-size: 35px;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
